@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav__navigation {
+    display: flex;
+    gap: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.product {
+    width: 31%;
+}
+
+.product__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.product__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__buy {
+    padding: 5px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
