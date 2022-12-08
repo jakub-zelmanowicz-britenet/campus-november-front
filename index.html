@@ -5,6 +5,9 @@
     <title> Strona </title>
 
     <link href="style.css" type="text/css" rel="stylesheet"/>
+
+    <script src="productService.js" type="text/javascript" defer></script>
+    <script src="indexScript.js" type="text/javascript" defer></script>
 </head>
 <body>
     <main>
@@ -25,18 +28,7 @@
         </nav>
 
         <section>
-            <div class="products">
-
-                <div class="product">
-                    <img class="product__img" src="car.jpeg" alt="Samochód"/>
-                    <h3 class="product__title"> Produkt </h3>
-                    <div class="product__info">
-                        <p class="product__price"> Cena $100000 </p>
-                        <p class="product__buy" role="button"> KUP </p>
-                    </div>
-                </div>
-
-            </div>
+            <div id="products" class="products"></div>
         </section>
     </main>
 </body>
