@@ -19,3 +19,11 @@ getProducts()
     .catch( e => {
         console.log(e);
     });
+
+const url = window.location.search;
+const params = new URLSearchParams(url);
+
+if (params.has('categoryId')) {
+    const categoryId = params.get('categoryId');
+    console.log('[DEBUG] ' + categoryId);
+}
